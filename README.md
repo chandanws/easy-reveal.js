@@ -6,24 +6,32 @@ These scripts enables you to:
 
 ## Use
 
-1. Clone this repository in a new folder
+- Clone this repository in a new folder
 
-	$ git clone https://github.com/danidemi/easy-reveal.js.git &lt;my-slideshow-folder>
-	$ cd &lt;my-slideshow-folder>
+<code>
+$ git clone https://github.com/danidemi/easy-reveal.js.git &lt;my-slideshow-folder>
+$ cd &lt;my-slideshow-folder>
+</code>
 
-2. Start the docker container
+- Start the docker container
 
-	$ ./run-container
+<code>
+$ ./run-container
+</code>
 
-3. Create and edit a markdown file following the explanations presented in the [pandoc manual](http://johnmacfarlane.net/pandoc/demo/example9/producing-slide-shows-with-pandoc.html).
+- Create and edit a markdown file following the explanations presented in the [pandoc manual](http://johnmacfarlane.net/pandoc/demo/example9/producing-slide-shows-with-pandoc.html).
 
-	$ touch index.md #then edit it...
+<code>
+$ touch index.md #then edit it...
+</code>
 
-4. Convert the markdown file in a reveal.js presentation.
+- Convert the markdown file in a reveal.js presentation.
 
-	$ ./build-slideshow
+<code>
+$ ./build-slideshow
+</code>
 
-5. Browse to <http:127.0.0.1>
+- Browse to <http:127.0.0.1>
 
 ## References
 
